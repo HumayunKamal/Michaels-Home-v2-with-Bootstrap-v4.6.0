@@ -1,0 +1,196 @@
+// bootstrap scss
+@import "../bootstrap-4.6.0/scss/bootstrap.scss";
+
+// cutom fonts
+// @font-face {
+//   font-family: "raleway-regular";
+//   src: url(../fonts/Raleway-Regular.ttf);
+// }
+// @font-face {
+//   font-family: "raleway-bold";
+//   src: url(../fonts/Raleway-Bold.ttf);
+// }
+// @font-face {
+//   font-family: "roboto-regular";
+//   src: url(../fonts/Roboto-Regular.ttf);
+// }
+// @font-face {
+//   font-family: "roboto-bold";
+//   src: url(../fonts/Roboto-Bold.ttf);
+// }
+
+// custom-color
+$color-primary: #000000;
+$color-secondary: #414641;
+$color-body-bg: #f3ece4;
+$color-orange: #db7835;
+$color-yellow: #ddab73;
+$text-orange: #db7835;
+$text-yellow: #ddab73;
+
+.color-primary {
+  background-color: $color-primary;
+}
+
+.color-secondary {
+  background-color: $color-secondary;
+}
+
+.color-orange {
+  background-color: $color-orange;
+}
+
+.color-yellow {
+  background-color: $color-yellow;
+}
+
+.text-orange {
+  color: $text-orange;
+}
+
+.text-yellow {
+  color: $text-yellow;
+}
+
+.slider-heading {
+  font-size: 3rem;
+  font-weight: lighter;
+}
+
+.section-heading {
+  font-size: 2rem;
+  font-weight: normal;
+}
+
+.section-body {
+  color: #5f5c57;
+  font-size: 0.9rem;
+}
+
+
+.anchor-link:hover {
+  color: $color-orange;
+  border-bottom: 1px $color-orange;
+}
+body {
+  background-color: $color-body-bg;
+}
+////////////////////////////////////////
+//////////////////////////////////
+///////// landing-page
+
+////////////////////////
+/// header
+
+.showcase {
+  position: relative;
+  margin-top: -1rem;
+  z-index: 1;
+}
+
+.navbar {
+  position: absolute;
+  top: 20;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+.carousel-caption-align-center {
+  position: absolute;
+  top: 25%;
+}
+
+//////////////////////////////////
+// collection-section
+.collection-section-image-1 {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.01),
+      rgba(0, 0, 0, 0.08)
+    ),
+    url("../Img/collection-section/collection-section-1.jpg");
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  color: white;
+  padding: 20px;
+
+  transition: transform 2s linear;
+
+  .collection-section-content:hover {
+    transform: translateY(-10%);
+  }
+}
+.collection-section-image-2 {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.01),
+      rgba(0, 0, 0, 0.08)
+    ),
+    url("../Img/collection-section/collection-section-2.jpg");
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  color: white;
+  padding: 20px;
+
+  transition: transform 2s linear;
+
+  .collection-section-content:hover {
+    transform: translateY(-10%);
+  }
+}
+.collection-section-image-3 {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.01),
+      rgba(0, 0, 0, 0.08)
+    ),
+    url("../Img/collection-section/collection-section-3.jpg");
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  color: white;
+  padding: 20px;
+
+  transition: transform 2s linear;
+
+  .collection-section-content:hover {
+    transform: translateY(-10%);
+  }
+}
+.collection-section-image-4 {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.01),
+      rgba(0, 0, 0, 0.08)
+    ),
+    url("../Img/collection-section/collection-section-4.jpg");
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  color: white;
+  padding: 20px;
+
+  transition: transform 2s linear;
+
+  .collection-section-content:hover {
+    transform: translateY(-10%);
+  }
+}
+
+//////////////////////
+/////reviews
+.reviews {
+  background: url(../Img/review-section/review-section-1-png.png);
+  width: 100%;
+
+  background-size: cover;
+}
+
+////////////////
+////instagram-section
+
+////////////////////
+//////footer
