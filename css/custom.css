@@ -9753,7 +9753,7 @@ body {
 }
 
 .collection-section-image-1 {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.08)), url("../Img/collection-section/collection-section-1.jpg");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.08)), url("../img/collection-section/collection-section-1.jpg");
   width: 100%;
   height: 400px;
   background-size: cover;
@@ -9767,7 +9767,7 @@ body {
 }
 
 .collection-section-image-2 {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.08)), url("../Img/collection-section/collection-section-2.jpg");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.08)), url("../img/collection-section/collection-section-2.jpg");
   width: 100%;
   height: 400px;
   background-size: cover;
@@ -9781,7 +9781,7 @@ body {
 }
 
 .collection-section-image-3 {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.08)), url("../Img/collection-section/collection-section-3.jpg");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.08)), url("../img/collection-section/collection-section-3.jpg");
   width: 100%;
   height: 400px;
   background-size: cover;
@@ -9795,7 +9795,7 @@ body {
 }
 
 .collection-section-image-4 {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.08)), url("../Img/collection-section/collection-section-4.jpg");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.08)), url("../img/collection-section/collection-section-4.jpg");
   width: 100%;
   height: 400px;
   background-size: cover;
@@ -9809,7 +9809,7 @@ body {
 }
 
 .reviews {
-  background: url(../Img/review-section/review-section-1-png.png);
+  background: url(../img/review-section/review-section-1-png.png);
   width: 100%;
   background-size: cover;
 }

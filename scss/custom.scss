@@ -1,7 +1,7 @@
 // bootstrap scss
 @import "../bootstrap-4.6.0/scss/bootstrap.scss";
 
-// cutom fonts
+// custom fonts
 // @font-face {
 //   font-family: "raleway-regular";
 //   src: url(../fonts/Raleway-Regular.ttf);
@@ -109,7 +109,7 @@ body {
       rgba(0, 0, 0, 0.01),
       rgba(0, 0, 0, 0.08)
     ),
-    url("../Img/collection-section/collection-section-1.jpg");
+    url("../img/collection-section/collection-section-1.jpg");
   width: 100%;
   height: 400px;
   background-size: cover;
@@ -128,7 +128,7 @@ body {
       rgba(0, 0, 0, 0.01),
       rgba(0, 0, 0, 0.08)
     ),
-    url("../Img/collection-section/collection-section-2.jpg");
+    url("../img/collection-section/collection-section-2.jpg");
   width: 100%;
   height: 400px;
   background-size: cover;
@@ -147,7 +147,7 @@ body {
       rgba(0, 0, 0, 0.01),
       rgba(0, 0, 0, 0.08)
     ),
-    url("../Img/collection-section/collection-section-3.jpg");
+    url("../img/collection-section/collection-section-3.jpg");
   width: 100%;
   height: 400px;
   background-size: cover;
@@ -166,7 +166,7 @@ body {
       rgba(0, 0, 0, 0.01),
       rgba(0, 0, 0, 0.08)
     ),
-    url("../Img/collection-section/collection-section-4.jpg");
+    url("../img/collection-section/collection-section-4.jpg");
   width: 100%;
   height: 400px;
   background-size: cover;
@@ -183,7 +183,7 @@ body {
 //////////////////////
 /////reviews
 .reviews {
-  background: url(../Img/review-section/review-section-1-png.png);
+  background: url(../img/review-section/review-section-1-png.png);
   width: 100%;
 
   background-size: cover;
