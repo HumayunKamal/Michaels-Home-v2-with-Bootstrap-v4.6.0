@@ -67,7 +67,6 @@ $text-yellow: #ddab73;
   font-size: 0.9rem;
 }
 
-
 .anchor-link:hover {
   color: $color-orange;
   border-bottom: 1px $color-orange;
@@ -116,10 +115,9 @@ body {
   color: white;
   padding: 20px;
 
-  transition: transform 2s linear;
-
+  transition: transform 300ms ease-out;
   .collection-section-content:hover {
-    transform: translateY(-10%);
+    transform: translateY(-5%);
   }
 }
 .collection-section-image-2 {
@@ -135,7 +133,7 @@ body {
   color: white;
   padding: 20px;
 
-  transition: transform 2s linear;
+  transition: transform 300ms ease-out;
 
   .collection-section-content:hover {
     transform: translateY(-10%);
@@ -154,7 +152,7 @@ body {
   color: white;
   padding: 20px;
 
-  transition: transform 2s linear;
+  transition: transform 300ms ease-out;
 
   .collection-section-content:hover {
     transform: translateY(-10%);
@@ -173,7 +171,7 @@ body {
   color: white;
   padding: 20px;
 
-  transition: transform 2s linear;
+  transition: transform 300ms ease-out;
 
   .collection-section-content:hover {
     transform: translateY(-10%);
@@ -183,14 +181,8 @@ body {
 //////////////////////
 /////reviews
 .reviews {
-  background: url(../img/review-section/review-section-1-png.png);
+  background: url(../img/review-section/review-section-1.png);
   width: 100%;
 
   background-size: cover;
 }
-
-////////////////
-////instagram-section
-
-////////////////////
-//////footer
